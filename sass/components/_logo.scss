@@ -1,0 +1,14 @@
+
+.logo-black {
+  @extend %logo;
+  color: $title-text-color;
+    }
+.logo-white {
+  @extend %logo;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: $background-text-color;
+  }
+  .accent {
+    color: $accent-color;
+  }

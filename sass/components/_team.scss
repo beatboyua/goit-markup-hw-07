@@ -1,0 +1,36 @@
+.team {
+  @extend %list;
+  display: flex;
+
+  .item {
+    width: 270px;
+    margin-right: 30px;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 1px 3px rgba(0, 0, 0, 0.12);
+    background-color: $background-text-color;
+    text-align: center;
+  }
+  .item:last-child {
+    margin-right: 0;
+  }
+  .team-image {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .team-name {
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    color: $title-text-color;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+  }
+  .team-profession {
+    margin: 0;
+    margin-bottom: 16px;
+
+    font-size: 16px;
+    line-height: 1.18;
+  }
+}
